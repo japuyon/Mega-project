@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="the_css.css">
+    <script src="the_js.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/69e4ad19e9.js" crossorigin="anonymous"></script>
+</head>
+<body class="all">
+    <div class="the_main">
+        <div class="first">
+            <div class="top_image">
+                <img src="https://cdn.idntimes.com/content-images/community/2024/07/excited-good-looking-girl-making-selfie-outdoor-shot-chilling-female-model-posing-city-1-06da9cb21925c208b6c5f4982411b31d-eaa0db55a61dd617a71a146c9d8c25f2_600x400.jpg"
+                     class="img-fluid"
+                     alt="Top Image"/>  
+            </div>
+            <div class="top_image"><i class="fa fa-compact-disc nav-icon fa-lg"></i></div>
+            <div class="top_image"><i class="fa-solid fa-arrow-trend-up fa-lg"></i></div>
+            <div class="top_image"><i class="fa-duotone fa-solid fa-circle-play"></i></div>
+            <div class="top_image"><i class="fa-sharp fa-solid fa-heart"></i></div>
+        </div>
+        
+        <!-- the carousel -->
+        <div class="common"> <!--contains all-->
+
+        <div class="second">
+            <h2>Popular Playlist</h2>
+            <button type="button" class="btn btn-outline-secondary" style="position: absolute; z-index: 1; margin-top: 13rem; margin-left: -3rem;">
+                <span style="font-weight: bold;color: rgb(98, 155, 44);">LISTEN NOW</span> <i class="fa-duotone fa-solid fa-circle-play"></i>
+            </button>
+            <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+        
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://img.freepik.com/free-photo/portrait-person-playing-music-saxophone_23-2151051627.jpg?size=626&ext=jpg&ga=GA1.1.308891823.1721957669&semt=ais_user" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://img.freepik.com/free-photo/attractive-girl-silhouette-confetti_23-2147651963.jpg?t=st=1721959999~exp=1721963599~hmac=53bdff4691e1ddf98ffaa89737dde409515ab8e3bf7802062f1ec7362b58cb9b&w=740" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://enki-institut.com/cdn/shop/articles/woman-portrait-with-blue-lights-visual-effects.jpg?v=1682529512&width=360" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://img.freepik.com/free-photo/drums-drum-set_169016-5567.jpg?t=st=1721960218~exp=1721963818~hmac=f6f9d78a071c14c494bc284deaa5d35062b6cbee4badf4fb3f09b98b648e06e4&w=740" alt="Fourth slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQy4CuLfVrfCAPtlrt7YqKY3YSARFKbpYyh3mBMItTDrlRY4l1C" alt="Fifth slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <h3>Featured Artists</h3>
+            <!--Featured Artists-->
+            <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                </div>
+        
+                <div class="carousel-inner" class="Featured">
+                    <div class="carousel-item unique active">
+                        <img class="d-block w-100" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/c8feaa0f-6ae7-4c69-bb7d-4a11de76b4f5" alt="First slide">
+                    </div>
+                    <div class="carousel-item unique">
+                        <img class="d-block w-100" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/bf80314e-5a02-4702-bb64-eae8c113c417" alt="Second slide">
+                    </div>
+                    <div class="carousel-item unique">
+                        <img class="d-block w-100" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e4576af8-0e84-4343-8f90-7a01acb9c8b7" alt="Third slide">
+                    </div>
+                    <div class="carousel-item unique">
+                        <img class="d-block w-100" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/d8eb2888-1e74-4117-82d7-833ad29e3cc1" alt="Fourth slide">
+                    </div>
+                    <div class="carousel-item unique">
+                        <img class="d-block w-100" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/f23adc16-11d7-41dc-af6a-191e03a81603" alt="Fifth slide">
+                    </div>
+                    <div class="carousel-item unique">
+                        <img class="d-block w-100" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/f511c102-3217-4bea-bede-8be23b969bd8" alt="Sixth slide">
+                    </div>
+                    <div class="carousel-item unique">
+                        <img class="d-block w-100" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/9a8bd237-b525-43e6-a37c-daaac39db8ce" alt="Seventh slide">
+                    </div>
+                    <div class="carousel-item unique">
+                        <img class="d-block w-100" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/99452c85-26f4-4ccd-b439-7d1bd3875634" alt="Eighth slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h1>Recommended Albums</h1>
+            <div class="last_div">
+                <img style="margin-left: 20px;" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/74c4f0f9-d73e-4737-83fa-ea4afe392229" alt="images" class="last_img">
+                <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/d3a0bac0-fdb4-467e-bdf5-f3f415928f24" alt="images" class="last_img">
+                <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/85521a12-cc46-4b9f-a742-21ba407ebd5e" alt="images" class="last_img">
+                <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/4e7bf466-7fa5-4dad-b628-5bca12833b64" alt="images" class="last_img">
+                <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/f01f546a-7ab7-4e90-acb9-1c1e817b676d" alt="images" class="last_img">
+            </div>
+        </div>
+
+        <!--the recommended songs-->
+        <div class="third" id="third">
+            <h3>Recommended Songs</h3>
+            <div class="the_third_first_img">
+                <div>
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRB26f8HEsqCq00n3VAjGdmuw8z4aV6zjtKjwZyF8tAkkcyO1Eh" alt="Blank Space">
+                        <div class="one_song">
+                            <h3>Blank Space <span class="time">4:33</span></h3>
+                            <p>Taylor Swift</p>
+                        </div>
+                </div>
+
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTf6_1l5ahxjswRSN5tAl5d__in3Vzl50i9c5rPqgbtq331_Tf9" alt="photo">
+                <div>
+                    <div class="one_song">
+                        <h3>One Dance <span class="time">4:03</span></h3>
+                        <p>Drake</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQL1Ip55xPo8_lnrQJilQ7IxV-Iem9ZpEa0_V_4CYU9yUgROLMr" alt="photo">
+                    <div class="one_song">
+                        <h3>Pawn It All <span class="time">3:30</span></h3>
+                        <p>Alicia Keys</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCbx-leA7R1hd55wXAWB2H51yTHzU_OG4HrLp8RkcqztGyng6D" alt="photo">
+                    <div class="one_song">
+                        <h3>Lose Control <span class="time">3:10</span></h3>
+                        <p>Teddy Swims</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRu1hkb15pjWuL6jkbeZhFOWjbPBSQWMUmpMHl1JCjLdp5JP2va" alt="photo">
+                    <div class="one_song">
+                        <h3>Be The One<span class="time">3:24</span></h3>
+                        <p>Dua Lipa</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ8_vylJYSQGzUn_VDO624O2rPvCYXz6up9XDvzW0JEuJCLJnT3" alt="photo">
+                    <div class="one_song">
+                        <h3>Delicate<span class="time">3:54</span></h3>
+                        <p>Taylor Swift</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSyTnqE-oA0Tr1nDuG4wciXul20Jm-bOdQ5i_4vkX7FtzTUk3a" alt="photo">
+                    <div class="one_song">
+                        <h3>Last Christmas<span class="time">4:39</span></h3>
+                        <p>Wham!</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/96bc0648-51f9-46ab-a426-766c6bc93d80" alt="photo">
+                    <div class="one_song">
+                        <h3>Paradise<span class="time">4:20</span></h3>
+                        <p>Coldplay</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSIQOXqGnUc9XBuKAlr6uPAia4wazs5d8MGI5It77hYkpiJ4HJ5" alt="photo">
+                    <div class="one_song">
+                        <h3>Easy On Me<span class="time">3:45</span></h3>
+                        <p>Adele</p>
+                    </div>
+                </div>
+
+                <div class="music">
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/398875d0-9b9e-494a-8906-210aa3f777e0" alt="music" class="the_image">
+                    <h3>Redemption</h3>
+                    <h5>Besomorph & Coopex</h5>
+                    <audio id="audioPlayer" src="https://github.com/ecemgo/mini-samples-great-tricks/raw/main/song-list/Besomorph-Coopex-Redemption.mp3"></audio>
+                    <div class="controlling">
+                        <button id="prevButton"><i class="the_circle fa-solid fa-backward fa-lg"></i></button>
+                        <button id="playPauseButton"><i id="playPauseIcon" class="the_circle fa-solid fa-play fa-lg"></i></button>
+                        <button id="nextButton"><i class="the_circle fa-solid fa-forward fa-lg"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- common end here -->
+    </div>
+</body>
+</html>
